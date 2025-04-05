@@ -12,7 +12,7 @@ const App = () => {
     <Routes>
       <Route path='/' element={<LoginPage></LoginPage>}></Route>
       <Route path='/otppage' element={<OTPVerfication></OTPVerfication>}></Route>
-      <Route path='/homepage' element={<LoggedInPage></LoggedInPage>}></Route>
+      <Route path='/homepage'element={<LoggedInPage></LoggedInPage>}></Route>
     </Routes>
 
     </> 
