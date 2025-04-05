@@ -1,0 +1,109 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+.otp-page
+{
+    height: 100vh;
+    display: block;
+    width: 100vw;
+    background: url("../assets/codingimage.jpg");
+    background-size: cover;
+}
+.welcome
+{
+    height: 20vh;
+    width: 100vw;
+    margin-bottom: 50px;
+}
+
+.welcome-message
+{
+   
+    color: white;
+    font-size: 95px;    
+    font-family:monospace;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.otp-form
+{
+    height: 450px;
+    width: 400px;
+    
+   background: gray;
+   border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.otp-element
+{
+    margin: 15px;
+    padding: 15px;
+}
+.otp-heading
+{
+    gap: 30px;
+}
+.otp-heading-text
+{
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+}
+.enter-otp
+{
+    margin-bottom: 30px
+}
+
+.enter-otp-text
+{
+    font-size: 30px;
+    color: white;
+}
+.otp-field
+{
+    font-size: 30px;
+    color: black;
+}
+
+.invalid-otp-msg
+{
+    color: red;
+    font-size: 20px;
+    margin: 0%;
+    padding: 0%;
+}
+
+.verified-user-msg
+{
+    color: #66FF00;
+    font-size: 20px;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.submit-button
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: lightgray; */
+    background: lightgray;
+    color: black;
+    height: 66px;
+    width: 125px;
+    font-size: 25px;
+    font-weight: bold
+}
+.submit-button :hover{
+    color: lightgray;
+    background-color: black;
+  
+}

@@ -1,0 +1,117 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+
+    /* z-index: -91; */
+}
+.lgpage
+{
+    height: 100vh;
+    width: 100vw;
+    display:block;
+    background-image:url("../assets/codingimage.jpg");
+    background-size:cover;
+}
+
+.loginheading{
+    
+   height: 20vh;
+   width: 100vw;
+    color: white;
+    font-size: 95px;    
+    font-family:monospace   
+}
+.loginheading p
+{
+    margin-left: 27%;
+}
+
+
+.loginBox
+{
+    height: 450px;
+    width: 400px;
+    font-size: 30px;
+
+   background: gray;
+    border-radius: 20px;
+   
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.lg
+{
+    text-align: center;
+    margin: 30px;
+    padding: 30px;
+    background: gray;
+    color: white;
+}
+.loginhead
+{
+    background: gray;
+    color: white;
+}
+.box-element
+{
+    margin: 15px;
+    padding: 15px;
+    background: gray;
+}
+.email-desc
+{
+    background: gray;
+    /* color: black; */
+    color: white;
+}
+.email-box
+{
+  
+    background:lightgray;
+    color: black;   
+   
+}
+.entermail
+{
+    gap: 100px;
+    background: gray;
+   
+}
+
+.invalid-email
+{
+    color: red;
+    font-size: 20px;
+    margin: 0%;
+    padding: 0%;
+    gap:20px;
+}
+.otp-generated-msg
+{
+    color:#66FF00;
+    font-size: 20px;
+    margin: 0%;
+    padding: 0%;gap: 20px;
+}
+.submit-button
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: lightgray; */
+    background: lightgray;
+    color: black;
+    height: 66px;
+    width: 125px;
+    font-size: 25px;
+    font-weight: bold
+}
+.submit-button :hover{
+    color: lightgray;
+    background-color: black;
+
+}
